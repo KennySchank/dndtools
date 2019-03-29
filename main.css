@@ -1,0 +1,49 @@
+html {
+  height: 100%;
+}
+
+body {
+  position: relative;
+  background-color: #e9ecef;
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
+
+.card-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.badge {
+  height: 24px;
+}
+
+section {
+  padding: 0 2rem;
+}
+
+.card {
+  margin-bottom: 10px;
+}
+
+.nav-link:hover { cursor: pointer; }
+
+form#login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+main {
+  padding-bottom: 4rem;
+}
+
+#footer {
+  grid-row-start: -1;
+  width: 100%;
+  text-align: center;
+  font-size: .5em;
+  padding: 1rem 0;
+}

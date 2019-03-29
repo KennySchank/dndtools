@@ -1,0 +1,157 @@
+.nav-link:hover { cursor: pointer; }
+
+#mobileAdvisory {
+  display: none;
+  padding: 4rem 2rem;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+form#login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  margin: 0 auto;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  #mobileAdvisory { display: block; }
+}
+
+main, #modals {
+  width: 100%;
+  height: 100%;
+}
+
+.modal.modal-wide .modal-dialog {
+  width: 90%;
+  max-width: 1200px;
+}
+
+header,
+footer {
+  padding: 0 30px;
+  display: flex;
+}
+header {
+  justify-content: space-between;
+  padding-top: 25px;
+}
+.fa-filter {
+  position: relative;
+  top: 16px;
+  line-height: 1.2em;
+  margin-bottom: .5rem;
+}
+.fa-filter:hover {
+  cursor: pointer;
+}
+th input {
+  font-weight: bold;
+}
+table input,
+table select {
+  border: 0;
+}
+tr {
+  line-height: 38px;
+}
+.input-armor-type {
+  max-width: 4.5em;
+}
+.input-cost {
+  max-width: 3.5em;
+  text-align: right;
+}
+.input-qty {
+  max-width: 2.5em;
+}
+.cost {
+  min-width: 8em;
+}
+.sort,
+button a {
+  color: white;
+}
+.sort:hover,
+button a {
+  color: white;
+  text-decoration: none;
+}
+button {
+  min-width: 94px;
+}
+table i {
+  min-width: 19px;
+}
+#filters {
+  display: block;
+  padding: 25px 50px 0 25px;
+  z-index: -1;
+}
+#filters .form-button {
+  display: flex;
+  align-items: flex-end;
+  padding: 0 5px;
+}
+#owners {
+  position: relative;
+  top: -102px;
+  background-color: white;
+  transition: top .25s;
+}
+#owners.visible {
+  top: 0;
+  transition: top .25s;
+}
+.card-body {
+  overflow-x: scroll;
+}
+.fa-trash-alt, .fa-times {
+  margin-left: 35px;
+}
+td:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.fa-trash-alt {
+  line-height: 40px;
+}
+.fa-trash-alt:hover {
+  cursor: pointer;
+}
+footer {
+  display: flex;
+  justify-content: flex-end;
+}
+footer button,
+footer a {
+  margin-left: 15px;
+}
+.no-rows {
+  font-style: italic;
+}
+.card-body a.btn {
+  color: white;
+}
+h1 a,
+h1 a:hover {
+  color: black;
+  text-decoration: none;
+}
+#addOwnerButton { color: white; }
+.sort:hover {
+  cursor: pointer;
+}
+#ownerTableWrapper {
+  position: relative;
+  min-height: 325px;
+}
+.modal-header {
+  line-height: 30px;
+}
+.total-weight {
+  color: #333333;
+  font-style: italic;
+}
