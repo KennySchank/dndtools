@@ -1,3 +1,5 @@
+This site uses Bootstrap for styling, jQuery on the front end, and PHP on the back end.
+
 ===== SETUP =====
 
 The web site is located at kennyschank.com/demo/dnd-tools. The Player Inventory tool is located at kennyschank.com/demo/dnd-tools/dnd.php.
